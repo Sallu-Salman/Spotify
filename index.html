@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://img.icons8.com/?size=512&id=G9XXzb9XaEKX&format=png">
 </head>
 <body>
     <nav>
@@ -22,39 +23,46 @@
             <div class="songListContainer">
                 <div class="songListItem">
                     <img src="https://i1.sndcdn.com/artworks-000150715115-hvkw9l-t500x500.jpg" alt="cover img">
-                    <span>Story of my life</span>
+                    <span class="songListName">Story of my life</span>
+                    <div class="stamp">
                     <span class="timestamp">2.34</span>
-                    <span><img src="https://img.icons8.com/?size=512&id=j62DCKwIUq9b&format=png" alt="play-button"></span>
+                    <span><img src="https://img.icons8.com/?size=512&id=3cdCHbIzVVFf&format=png" alt="play-button"></span>
+                    </div>
                 </div>
                 <div class="songListItem">
                     <img src="https://i1.sndcdn.com/artworks-000150715115-hvkw9l-t500x500.jpg" alt="cover img">
-                    <span>Story of my life</span>
+                    <span class="songListName">Story of my life</span>
+                    <div class="stamp">
                     <span class="timestamp">2.34</span>
-                    <span><img src="https://img.icons8.com/?size=512&id=j62DCKwIUq9b&format=png" alt="play-button"></span>
+                    <span><img src="https://img.icons8.com/?size=512&id=3cdCHbIzVVFf&format=png" alt="play-button"></span></div>
                 </div>
                 <div class="songListItem">
                     <img src="https://i1.sndcdn.com/artworks-000150715115-hvkw9l-t500x500.jpg" alt="cover img">
-                    <span>Story of my life</span>
+                    <span class="songListName">Story of my life</span>
+                    <div class="stamp">
                     <span class="timestamp">2.34</span>
-                    <span><img src="https://img.icons8.com/?size=512&id=j62DCKwIUq9b&format=png" alt="play-button"></span>
+                    <span><img src="https://img.icons8.com/?size=512&id=3cdCHbIzVVFf&format=png" alt="play-button"></span></div>
                 </div>
                 <div class="songListItem">
                     <img src="https://i1.sndcdn.com/artworks-000150715115-hvkw9l-t500x500.jpg" alt="cover img">
-                    <span>Story of my life</span>
+                    <span class="songListName">Story of my life</span>
+                    <div class="stamp">
                     <span class="timestamp">2.34</span>
-                    <span><img src="https://img.icons8.com/?size=512&id=j62DCKwIUq9b&format=png" alt="play-button"></span>
+                    <span><img src="https://img.icons8.com/?size=512&id=3cdCHbIzVVFf&format=png" alt="play-button"></span></div>
                 </div>
                 <div class="songListItem">
                     <img src="https://i1.sndcdn.com/artworks-000150715115-hvkw9l-t500x500.jpg" alt="cover img">
-                    <span>Story of my life</span>
+                    <span class="songListName">Story of my life</span>
+                    <div class="stamp">
                     <span class="timestamp">2.34</span>
-                    <span><img src="https://img.icons8.com/?size=512&id=j62DCKwIUq9b&format=png" alt="play-button"></span>
+                    <span><img src="https://img.icons8.com/?size=512&id=3cdCHbIzVVFf&format=png" alt="play-button"></span></div>
                 </div>
                 <div class="songListItem">
                     <img src="https://i1.sndcdn.com/artworks-000150715115-hvkw9l-t500x500.jpg" alt="cover img">
-                    <span>Story of my life</span>
+                    <span class="songListName">Story of my life</span>
+                    <div class="stamp">
                     <span class="timestamp">2.34</span>
-                    <span><img src="https://img.icons8.com/?size=512&id=j62DCKwIUq9b&format=png" alt="play-button"></span>
+                    <span><img src="https://img.icons8.com/?size=512&id=3cdCHbIzVVFf&format=png" alt="play-button"></span></div>
                 </div>
             </div>
         </div>
@@ -64,16 +72,16 @@
     </div>
 
     <div class="bottom">
-        <input type="range" name="range" id="progressBar" min="0" max="100">
+        <input type="range" name="range" id="progressBar" min="0" max="100" value="0">
         <div class="play-and-info">
             <div class="info">
                 <img src="images/playing.gif" alt="playing">
                 <p id="current-song">Story of my life</p>
             </div>
             <div class="play-buttons">
-                <img src="https://img.icons8.com/?size=512&id=dGF2Khq2etRO&format=png" alt="play-button">
-                <img src="https://img.icons8.com/?size=512&id=j62DCKwIUq9b&format=png" alt="play-button">
-                <img src="https://img.icons8.com/?size=512&id=8AnBjmuQ4jDd&format=png" alt="play-button">
+                <img id="previousPlay" src="https://img.icons8.com/?size=512&id=dGF2Khq2etRO&format=png" alt="play-button">
+                <img id="masterPlay" src="https://img.icons8.com/?size=512&id=3cdCHbIzVVFf&format=png" alt="play-button">
+                <img id="nextPlay" src="https://img.icons8.com/?size=512&id=8AnBjmuQ4jDd&format=png" alt="play-button">
             </div>
         </div>
     </div>
